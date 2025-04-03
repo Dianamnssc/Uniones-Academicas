@@ -17,13 +17,13 @@ nav .menu li {
 
 nav .menu a {
     text-decoration: none;
-    color: #fff;
+    color: #0484ce;
     font-size: 1.2em;
     font-weight: bold;
 }
 
 nav .menu a:hover {
-    color: #ffffff;
+    color: #ff4500;
 }
 
 body {
@@ -66,6 +66,12 @@ table img {
     width: 230px;
     height: 230px;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+table img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 a {
@@ -88,16 +94,27 @@ footer {
 footer ul {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0;
 }
 
 footer ul li {
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 footer a {
-    color: #060afd;
+    color: #0484ce;
+    font-weight: bold;
 }
 
 footer a:hover {
-    color: #060afd;
+    color: #ff4500;
+}
+nav .menu a, footer a {
+    text-decoration: none;
+    color: #0484ce;
+    font-weight: bold;
+}
+
+nav .menu a:hover, footer a:hover {
+    color: #ff4500;
 }
